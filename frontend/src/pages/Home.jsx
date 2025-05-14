@@ -71,7 +71,7 @@ const Home = () => {
                       <AiOutlineEdit className="text-2xl text-yellow-600" />
                     </Link>
                     <Link to={`/books/delete/${book._id}`}>
-                      <BsInfoCircle className="text-2xl text-red-800" />
+                      <MdOutlineDelete className="text-2xl text-red-800" />
                     </Link>
                   </div>
                 </td>
